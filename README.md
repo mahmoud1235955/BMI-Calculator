@@ -25,4 +25,4 @@ It provides the BMI value along with a health status message indicating whether 
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/USERNAME/REPO.git
+   git clone [https://github.com/USERNAME/REPO.git](https://github.com/mahmoud1235955/BMI-Calculator.git)
