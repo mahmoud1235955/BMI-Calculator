@@ -1,10 +1,6 @@
 import 'dart:math';
 
 import 'package:bmi/views/screens/result_screen.dart';
-import 'package:bmi/widgets/app_bar.dart';
-import 'package:bmi/widgets/detailes_widget.dart';
-import 'package:bmi/widgets/gender_container.dart';
-import 'package:bmi/widgets/next_container.dart';
 import 'package:flutter/material.dart';
 
 class CalcScreen extends StatefulWidget {
@@ -22,6 +18,8 @@ class _CalcScreenState extends State<CalcScreen> {
   bool colorToggle1 = true;
   bool colorToggle2 = false;
   @override
+
+  /// maha 
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xff1C2135),
