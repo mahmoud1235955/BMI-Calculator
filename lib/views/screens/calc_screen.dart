@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:bmi/views/screens/result_screen.dart';
 import 'package:bmi/widgets/app_bar.dart';
 import 'package:bmi/widgets/detailes_widget.dart';
@@ -9,7 +8,6 @@ import 'package:flutter/material.dart';
 
 class CalcScreen extends StatefulWidget {
   const CalcScreen({super.key});
-
   @override
   State<CalcScreen> createState() => _CalcScreenState();
 }
