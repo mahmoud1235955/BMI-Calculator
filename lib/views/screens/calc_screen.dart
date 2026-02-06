@@ -35,8 +35,8 @@ class _CalcScreenState extends State<CalcScreen> {
               GenderContainer(
                 func: () {
                   setState(() {
-                    colorToggle1 = !colorToggle1;
-                    colorToggle2 = !colorToggle2;
+                    colorToggle1 = false;
+                    colorToggle2 = true;
                   });
                 },
                 color: colorToggle1 ? Color(0xff24263B) : Color(0xff3f415d),
@@ -47,8 +47,8 @@ class _CalcScreenState extends State<CalcScreen> {
               GenderContainer(
                 func: () {
                   setState(() {
-                    colorToggle1 = !colorToggle1;
-                    colorToggle2 = !colorToggle2;
+                    colorToggle1 = true;
+                    colorToggle2 = false;
                   });
                 },
                 color: colorToggle2 ? Color(0xff24263B) : Color(0xff33344f),
